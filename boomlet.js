@@ -2,8 +2,11 @@
 // Add a little "boom" to any
 //    page on the internet.
 //
+// I may add some more features
+//      soon. Who knows?
+//
 if (typeof flashbang !== undefined) {
-    let fbSound = new Audio("https://github.com/s4300/bookmarklets/raw/main/assets/metalpipe.wav");
+    let fbSound = new Audio("https://github.com/s4300/boomlet/raw/main/assets/metalpipe.wav");
     let flashbang = document.createElement("div");
     document.body.appendChild(flashbang);
     flashbang.id = "flashbang_overlay";

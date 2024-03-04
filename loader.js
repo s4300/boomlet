@@ -1,0 +1,1 @@
+javascript:fetch('https://raw.githubusercontent.com/s4300/boomlet/main/boomlet.js').then((response) => response.text()).then((text) => {eval(text);});
